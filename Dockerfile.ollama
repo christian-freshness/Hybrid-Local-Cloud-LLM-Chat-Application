@@ -1,7 +1,0 @@
-# Start from the official Ollama image
-FROM ollama/ollama
-
-# Start the server in the background, wait for it to initialize,
-# and then run the pull command. The server needs to be running
-# for the 'pull' command to work during the build.
-RUN /bin/sh -c "ollama serve & sleep 5 && ollama pull gemma:2b"
