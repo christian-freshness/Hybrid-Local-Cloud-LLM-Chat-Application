@@ -16,7 +16,7 @@ except (FileNotFoundError, KeyError):
     st.error("Google API Key not found. Please add it to your Streamlit secrets.")
     st.stop()
 
-REMOTE_MODEL_NAME = "gemini-1.5-flash-latest"
+REMOTE_MODEL_NAME = "gemini-2.5-flash"
 
 # Initialize the Gemini Model
 try:
