@@ -5,6 +5,8 @@ This project is a Streamlit web application that allows users to chat with a lar
 1. **Local Mode:** Uses a smaller, open-source model (like Google's gemma:2b) running on your own computer via Ollama for quick, private, and free responses.  
 2. **Cloud Mode:** Uses a powerful, state-of-the-art model (like Google's gemini-1.5-flash) via a remote API for more complex and nuanced conversations.
 
+This is the link to the live [App](https://simple-assistant.streamlit.app/)
+
 ## **Features**
 
 * **Dual Model System:** Switch between a local and a cloud-based LLM with a simple checkbox.  
@@ -23,10 +25,10 @@ Follow these steps to run the full application (with both local and cloud models
 
 ### **1\. Clone the Repository**
 
-First, get the project files onto your machine.
+First, get the project files onto your machine (from the 'develop' branch).
 
-git clone \<your-repository-url\>  
-cd \<your-repository-name\>
+git clone https://github.com/christian-freshness/Hybrid-Local-Cloud-LLM-Chat-Application.git  
+cd Hybrid-Local-Cloud-LLM-Chat-Application
 
 ### **2\. Configure Environment Variables**
 
@@ -59,8 +61,8 @@ This project is configured for easy deployment to **Streamlit Community Cloud**.
 
 * Make sure you have a .gitignore file that includes .env to keep your API key secret.  
 * Push the following files to your public GitHub repository:  
-  * app.py (the deployment version)  
-  * requirements.txt (the deployment version)
+  * app.py (from 'main' branch)  
+  * requirements.txt (from 'main' branch)
 
 ### **2\. Deploy on Streamlit Community Cloud**
 
